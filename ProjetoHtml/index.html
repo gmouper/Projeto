@@ -10,7 +10,7 @@
 </head>
 <body>
     <div>
-        <fieldset>
+        <fieldset class="titulo">
         <h1 id="titulo">Criando sua conta</h1>
         
     </fieldset>
@@ -18,28 +18,36 @@
 
     <form>
         <div class="campo">
+           <label for="login"><strong>Login</strong></label>
+           <input type="login" name="login" id="login" placeholder="Crie um login" required>
+        </div>
+        <div class="campodois">
+           <label for="password"><strong>Senha</strong></label>
+           <input type="password" name="senha" id="senha" placeholder="Crie uma senha" required>
+        </div>
+        <div class="campo">
             <label for="cpf"><strong>Cpf</strong></label>
             <input type="text" name="cpf" id="cpf" placeholder="Digite seu Cpf" required>
-        
         </div>  
+        <div class="campodois">
+            <label for="identidade"><strong>Identidade</strong></label>
+            <input type="text" name="identidade" id="identidade" placeholder="Digite sua Identidade" required>
+        </div>
         <div class="campo">
             <label for="nome"><strong>Nome</strong></label>
            <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" required>
         </div>
-        <div class="campo">
+        <div class="campodois">
             <label for="sobrenome"><strong>Sobrenome</strong></label>
             <input type="text" name="sobrenome" id="sobrenome"  placeholder="Digite seu Sobrenome" required>
         </div>
-        <div class="campo">
-            <label for="identidade"><strong>Identidade</strong></label>
-            <input type="text" name="identidade" id="identidade" placeholder="Digite sua Identidade" required>
-        </div>
+        
         <div class="campo">   
             <label for="nascimento"><strong>Data de Nascimento</strong></label>
             <input type="date" name="nascimento"
              id="nascimento" required>
         </div>
-        <div class="campo">
+        <div class="campodois">
             <label for="telefone"><strong>Telefone</strong></label>
             <input type="text" name="telefone" id="telefone" placeholder="Digite seu Telefone" required>
         </div>
