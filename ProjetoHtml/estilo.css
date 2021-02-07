@@ -7,11 +7,9 @@
     border: 0;
     background-color: red;
     text-align: center;
-   }
-
-h1 {
- font-family: sans-serif;
- color: #262627;
+    width: 100vw;
+    font-family: sans-serif;
+    color: #262627;
 }
 
 /* PARA QUÊ SERVIA ISSO? VOCÊ NÃO TEM NENHUM ELEMENTO COM ID CHECK */
@@ -32,7 +30,6 @@ form {
     justify-content: flex-start;
     align-items: center;
     margin-top: 100px;
-    margin-left: 100px;
 }
 
 .campo{
@@ -97,4 +94,34 @@ form {
 
 .botaosalvar, select{
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1400px) {
+    .campo div {
+        flex-direction: column;
+    }
+
+    .campo div input {
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    form {
+        margin-top: 10px;
+    }
+
+    .campo {
+        margin: 0;
+    }
+
+    .campo {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .campo div {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
