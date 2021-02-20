@@ -1,0 +1,84 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="sortcut icon" href="favicon.ico" type="img/x-icon">
+    <title>Help - Página Cadastro</title>
+</head>
+<body>
+    <div>
+        <header class="img">    
+            <img src="logo-1.png" alt="logo-1">
+        </header>
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+               <li><a href="suporte.html">Suporte</a></li>
+               <li><a href="trabalheconosco.html">Trabalhe conosco</a></li>
+            </ul>
+        </nav>
+    </div>
+    <form>
+        <div class="campo">
+           <label for="login"><strong>Login</strong></label>
+           <input type="login" name="login" id="login" placeholder="Crie um login" required>
+        </div>
+        
+        <div class="campodois">
+           <label for="password"><strong>Senha</strong></label>
+           <input type="password" name="senha" id="senha" placeholder="Crie uma senha" required>
+        </div>
+        
+        <div class="campo">
+            <label for="cpf"><strong>Cpf</strong></label>
+            <input type="text" name="cpf" id="cpf" placeholder="Digite seu Cpf" required>
+        </div>  
+        
+        <div class="campodois">
+            <label for="identidade"><strong>Identidade</strong></label>
+            <input type="text" name="identidade" id="identidade" placeholder="Digite sua Identidade" required>
+        </div>
+        
+        <div class="campo">
+            <label for="nome"><strong>Nome</strong></label>
+           <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" required>
+        </div>
+        
+        <div class="campodois">
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome"  placeholder="Digite seu Sobrenome" required>
+        </div>
+        
+        <div class="campo">   
+            <label for="nascimento"><strong>Data de Nascimento</strong></label>
+            <input type="date" name="nascimento"
+             id="nascimento" required>
+        </div>
+        
+        <div class="campodois">
+            <label for="email"><strong>Email</strong></label>
+            <input type="Email" name="email" id="email" placeholder="Digite seu Email" required>
+        </div>
+        
+        <div class="campo">
+            <label for="telefone"><strong>Telefone</strong></label>
+            <input type="text" name="telefone" id="telefone" placeholder="Digite seu Telefone" required>
+        </div>
+        <div class="campodois">
+        <Label><strong>Escolha seu sexo:</strong></Label>
+        <select name="sexo" id="sexo" required>
+            <option selected disabled value="" >Selecione</option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Outro</option>
+        </select>
+        </div>
+          
+        <button class="botaosalvar" type="submit"  onsubmit="">Salvar</button>
+    </form>
+   
+</body>
+</html>
